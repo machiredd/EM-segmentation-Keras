@@ -57,10 +57,6 @@ class PredictOutput:
     def pad_image_cal(self):
         """ Calculates the amount of padding required in x and y direction.
 
-        Parameters
-        -----------
-        img : array-like, [img_size[0],img_size[1]] Image
-
         Results in
         -------
         self.pad_x : int, padding in x-direction
@@ -141,7 +137,7 @@ class PredictOutput:
     def generate_image_patches(self):
         """ Crop an entire image into patches for prediction.
         
-        Returns
+        Results in
         -------
         image_patches : array-like [number of patches, net_input_data_size, net_input_data_size]
         """
