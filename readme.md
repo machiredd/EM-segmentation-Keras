@@ -1,3 +1,5 @@
+# EM_segmentation_Keras
+
 A ResUNet model to segment organelles in electron microscopy images
 
 ResUNet is applied to 3D electron microscopy (EM) images of tumor biopsies obtained from patients with metastatic breast and pancreatic cancer to segment intra-cellular organelles. ResUNet is trained on a small subset of manually labeled images evenly distributed in the 3D EM image stack to efficiently segment the rest of the images in the stack.
